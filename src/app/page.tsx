@@ -1,8 +1,9 @@
 import Link from "next/link";
 
+
 export default function Home() {
   return (
-    <section className="p-4 flex flex-col items-center justify-center mx-auto min-h-screen overflow-hidden bg-gradient-to-r from-green-900 via-black to-blue-900">
+    <section className="p-4 flex flex-col items-center justify-center mx-auto min-h-screen overflow-hidden bg-gradient-to-r from-blue-500 via-black to-blue-500">
 
       <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white m-2 shadow-lg">
         Milestone 01
@@ -13,9 +14,9 @@ export default function Home() {
         <div className="color-layer"></div>
       </h1>
 
-      <div className="border-collapse bg-purple-800 w-80 h-80 flex items-center mt-6 justify-center rounded-xl shadow-2xl">
+      <div className="border-collapse bg-purple-600 w-80 h-80 flex items-center mt-6 justify-center rounded-xl shadow-2xl">
         <h1 className="text-center text-5xl font-extrabold text-white m-6 animate-bounce">
-          Hello Coders!
+          Hello World!
         </h1>
       </div>
 
@@ -30,7 +31,7 @@ export default function Home() {
           }
         >
           <button className="text-xl bg-gradient-to-r from-green-00 to-green-700 p-4 text-center rounded-lg hover:bg-gradient-to-l hover:from-green-700 hover:to-blue-900 shadow-lg">
-            Click Me
+            Click Me to see the Code
           </button>
         </Link>
       </div>
